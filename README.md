@@ -1,6 +1,4 @@
 
----
-
 #  Strategic HR Intelligence: Predictive Attrition & Behavioral Analytics
 
 ## The Narrative: Solving the "Multi-Million Dollar Leak"
@@ -11,12 +9,21 @@ As a **Strategic Data Analyst**, I engineered this HR Intelligence Workspace to 
 
 ---
 
-##  Dashboard Architecture
+##  The Data Intelligence 
 
-### **Executive Personnel Stability Overview**
+Project follows a structured lifecycle from raw data acquisition to executive-level visualization.
 
+### **Stage 1: Global Data Sourcing (Kaggle/IBM)**
+I utilized the **IBM HR Analytics Dataset** via Kaggle to ensure the model was built on a robust, industry-standard foundation of 35+ workplace variables. This stage involved verifying data integrity and understanding the feature schema.
+![Data Sourcing](images/kaggle_dataset_verification.png)
 
-*A high-fidelity visualization of organizational health, segmenting risk by salary hierarchy, department, and engagement scores.*
+### **Stage 2: Data Engineering & Transformation (Excel/SQL)**
+Before visualization, I performed extensive data auditing and cleaning. This involved handling satisfaction indexing, salary quartiles, and feature engineering to prepare the "Flight Risk" logic for Tableau.
+![Data Engineering](images/hr_intelligence_dashboard.png)
+
+### **Stage 3: Executive Intelligence Dashboard (Tableau)**
+The final output is a high-fidelity workspace designed for CHROs and People Ops leaders. It correlates behavioral stressors (like commute distance) with financial incentives to provide real-time retention insights.
+![Final Dashboard](images/raw_data_architecture.png)
 
 ---
 
